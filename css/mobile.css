@@ -1,0 +1,234 @@
+@media(max-width: 1000px){
+    header{
+        background-image: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu-btn{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+        align-content: center;
+    }
+
+    .menu-btn{
+        display: none;
+    }
+
+    .left-col{
+        flex-basis: 100%;
+    }
+
+    br{
+        display: none;
+    }
+
+    #heading{
+        font-size: 30px;
+    }
+
+    #parag{
+        font-size: 13px;
+    }
+
+    .services-col{
+        flex-basis: 100%;
+    }
+
+    #learn-more{
+        margin-top: 110vh;
+        height:200vh;
+    }
+
+    .left{
+        flex-basis: 100%;
+    }
+
+    .right{
+        flex-basis: 100%;
+    }
+
+    .right h1{
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .right h5{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .right p{
+        margin-top: 110px;
+        margin-left: 20px;
+    }
+
+    .icon{
+        margin-left: 20px;
+        margin-top: 150vh;
+    }
+
+    .h5{
+        margin-left: 20px;
+        margin-top: 175vh;
+    }
+
+    .Naxly{
+        margin-left: 20px;
+        margin-top: 190vh;
+    }
+
+    .Learn-btn{
+        display: none;
+    }
+
+    #img1{
+        margin-left: 15px;
+        width: 420px;
+        height:420px;
+    }
+
+    .rect{
+        margin-left: -20em;
+        margin-top: 64vh;
+    }
+
+    #icon4{
+        margin-left: 20px;
+    }
+
+    #industries-we-serve{
+        margin-top: -17vh;
+        height: 260vh;
+    }
+
+    #serve{
+        margin-left: 15px;
+    }
+
+    #serve-h1{
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    #serve-pg{
+        margin-left: 15px;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    #column{
+        flex-basis: 100%;
+        margin-top: 10px;
+        width:90px;
+        height:200px;
+    }
+
+    .link{
+        margin-top: 65em;
+    }
+
+    #column-icon{
+        margin-left: 50px;
+    }
+
+    #partners{
+        margin-top: -10vh;
+    }
+
+    #partners h1{
+        font-size: 28px;
+    }
+    
+    .quote{
+        margin-left: 110px;
+    }
+
+    .quote-row-column{
+        flex-basis: 100%;
+        margin: -20px;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 45px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    hr{
+        margin-top: 40vh;
+    }
+
+    .stuffs-row-column{
+        flex-basis: 90%;
+    }
+
+    #security{
+        font-size: 14px;
+    }
+
+    #innovative{
+        margin-top: 125vh;
+        height: 110vh;
+        background-size: 75em;
+    }
+
+    .play img{
+        width: 40px;
+        height: 40px;
+        margin: 90px 0px 0px 12em;
+    }
+
+    #innovative p{
+        font-size: 21px;
+    }
+
+    .innovative-btn{
+        margin-left: 8em;
+    }
+
+    footer{
+        margin-top: -50vh;
+        align-content: left;
+    }
+
+    br{
+        display: block;
+    }
+
+    .contact-column1{
+        flex-basis: 100%;
+        margin-left: 20px;
+    }
+
+    .contact-column2{
+        flex-basis: 100%;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .contact-column3{
+        flex-basis: 100%;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .contact-column4{
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+}
