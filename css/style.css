@@ -755,7 +755,7 @@ footer p span{
     }
 }
 
-@media(max-width: 720px){
+@media(max-width: 300px){
     header{
         background-image: none;
     }
