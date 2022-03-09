@@ -239,7 +239,7 @@ button{
     height: 500px;
     margin-left: 60px;
     margin-top: 13vh;
-    position: relative;
+    position: sticky;
 }
 
 .right h1{
@@ -638,4 +638,119 @@ footer p{
 
 footer p span{
     color: rgb(253, 109, 133)
+}
+
+@media (max-width: 1300px){
+
+    #learn-more{
+        height: 150vh;
+    }
+
+    .left{
+        flex-basis: 100%
+    }
+
+    .right{
+        flex-basis: 100%;
+    }
+
+    br{
+        display: none;
+    }
+
+    .right h1{
+        font-size: 30px;
+        margin-left: 30vh;
+    }
+
+    .right h5{
+        margin-left: 45vh;
+    }
+
+    .right p{
+        margin-left: 45vh;
+    }
+
+    #img1{
+        margin-left: 30vh;
+    }
+
+    .h5{
+        margin: 39.5em 0px 0px 45vh;
+    }
+
+    .Naxly{
+        margin: 42em 0px 0px 45vh;
+    }
+
+    #icon4{
+        margin-left: 30vh;
+    }
+
+    .icon{
+        margin: 40em 0px 0px 30vh
+    }
+
+    .Learn-btn{
+        display: none;
+    }
+
+    #industries-we-serve{
+        height: 195vh;
+    }
+
+    #serve{
+        text-align: center;
+    }
+
+    #serve-h1{
+        text-align: center;
+    }
+
+    #serve-pg{
+        margin: 40px 0px 0px 10vh;
+        text-align: center;
+    }
+
+    #column{
+        flex-basis: 35%;
+        margin-top: 10px;
+    }
+
+    .link{
+        margin-top: 40em;
+    }
+
+    #innovative{
+        margin-top: 30vh;
+    }
+
+    #stuffs{
+        height: 140vh;
+    }
+
+    .stuffs-row-column{
+        flex-basis: 40%;
+    }
+
+    .circle1{
+        margin-top: -25vh;
+    }
+
+    .img-text h3{
+        margin-left: -15vh;
+    }
+
+    .img-text p{
+        margin-left: -15vh;
+    }
+
+    #security{
+        font-size: 15px;
+        margin: 20vh 0px 0px -15px;
+    }
+
+    .img-text img{
+        display: none;
+    }
 }

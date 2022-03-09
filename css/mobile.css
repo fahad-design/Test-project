@@ -1,4 +1,4 @@
-@media(max-width: 1000px){
+@media(max-width: 700px){
     header{
         background-image: none;
     }
@@ -169,6 +169,15 @@
 
     hr{
         margin-top: 40vh;
+    }
+
+    #stuffs{
+        height: 100vh;
+
+    }
+
+    .circle1{
+        margin-left: 25vh;
     }
 
     .stuffs-row-column{
