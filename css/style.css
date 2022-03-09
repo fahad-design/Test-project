@@ -244,66 +244,48 @@ button{
 
 .right h1{
     font-size: 60px;
-    margin: 0px 0px 50px 160px;
+    margin: 50px 0px 30px 160px;
     font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
 }
 
-#icon4{
-    width: 35px;
-    height: 35px;
-    margin-left: 160px;
-    margin-bottom: 230px;
+.right-row{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.right-col{
+    flex-basis: 100%;
+    margin-top: 40px;
+}
+
+.right-col img{
+    width: 40px;
+    height: 40px;
+    margin-left: 25vh;
     border: 1px solid lightgrey;
     background-color: white;
-    padding: 15px
+    padding: 10px;
 }
 
-.right h5{
-    position: absolute;
-    margin-left: 250px;
-    margin-top: 0px;
+.right-col h5{
     font-size: 15px;
+    margin-left: 37vh;
+    margin-top: -10vh;
 }
 
-.right p{
-    position: absolute;
-    margin-left: 250px;
-    margin-top: 30px;
-    line-height: 1.8;
-}
-
-.h5{
-    position: absolute;
-    margin-left: 895px;
-    margin-top: 25vh;
-    font-size: 15px;
-}
-
-.icon{
-    width: 35px;
-    height: 35px;
-    margin-left: 805px;
-    margin-top: 180px;
-    border: 1px solid lightgrey;
-    background-color: white;
-    padding: 15px;
-    position: absolute;
-}
-
-.Naxly{
-    position: absolute;
-    margin-left: 895px;
-    margin-top: 40vh;
-    line-height: 1.8;
+.right-col p{
+    margin-left: 37vh;
+    margin-top: -2vh;
 }
 
 .Learn-btn{
-    position: absolute;
     text-decoration: none;
     color: white;
-    margin-top: 500px;
-    margin-left: 250px;
+    margin-left: 25vh;
+    margin-top: 40px;
     font-size: 16px;
     font-weight: bold;
     background-color: rgb(241, 133, 200);
@@ -643,11 +625,11 @@ footer p span{
 @media (max-width: 1300px){
 
     #learn-more{
-        height: 150vh;
+        height: fit-content;
     }
 
     .left{
-        flex-basis: 100%
+        flex-basis: 100%;
     }
 
     .right{
@@ -658,37 +640,17 @@ footer p span{
         display: none;
     }
 
-    .right h1{
-        font-size: 30px;
-        margin-left: 30vh;
-    }
-
-    .right h5{
-        margin-left: 45vh;
-    }
-
-    .right p{
-        margin-left: 45vh;
-    }
-
     #img1{
-        margin-left: 30vh;
+        margin-left: 50vh;
     }
 
-    .h5{
-        margin: 39.5em 0px 0px 45vh;
+    .right h1{
+        font-size: 35px;
+        margin-left: 30%;
     }
 
-    .Naxly{
-        margin: 42em 0px 0px 45vh;
-    }
-
-    #icon4{
-        margin-left: 30vh;
-    }
-
-    .icon{
-        margin: 40em 0px 0px 30vh
+    .right-col{
+        flex-basis: 50%;
     }
 
     .Learn-btn{
@@ -696,7 +658,7 @@ footer p span{
     }
 
     #industries-we-serve{
-        height: 195vh;
+        height: fit-content;
     }
 
     #serve{
@@ -713,7 +675,7 @@ footer p span{
     }
 
     #column{
-        flex-basis: 35%;
+        flex-basis: 30%;
         margin-top: 10px;
     }
 
@@ -722,11 +684,11 @@ footer p span{
     }
 
     #innovative{
-        margin-top: 30vh;
+        height: fit-content;
     }
 
     #stuffs{
-        height: 140vh;
+        height: fit-content;
     }
 
     .stuffs-row-column{
@@ -753,6 +715,55 @@ footer p span{
     .img-text img{
         display: none;
     }
+}
+
+@media(max-width: 900px){
+    #industries-we-serve{
+        height: fit-content;
+    }
+
+    #column{
+        flex-basis: 35%;
+        margin-top: 10px;
+    }
+
+    #learn-more{
+        height:fit-content;
+    }
+
+    .left{
+        flex-basis: 100%
+    }
+
+    .right{
+        flex-basis: 100%;
+    }
+
+    br{
+        display: none;
+    }
+
+    .right-col{
+        margin-top: 2px;
+    }
+
+    .right h1{
+        font-size: 30px;
+        margin-left: 30vh;
+    }
+
+    #img1{
+        margin-left: 30vh;
+    }
+
+    .Learn-btn{
+        display: none;
+    }
+
+    #industries-we-serve{
+        height:fit-content;
+    }
+
 }
 
 @media(max-width: 700px){
@@ -793,13 +804,16 @@ footer p span{
         font-size: 13px;
     }
 
+    #services{
+        height: fit-content;
+    }
+
     .services-col{
         flex-basis: 100%;
     }
 
     #learn-more{
-        margin-top: 110vh;
-        height:200vh;
+        height:fit-content;
     }
 
     .left{
@@ -816,29 +830,9 @@ footer p span{
         margin-left: 20px;
     }
 
-    .right h5{
-        margin-top: 80px;
-        margin-left: 20px;
-    }
-
-    .right p{
-        margin-top: 110px;
-        margin-left: 20px;
-    }
-
-    .icon{
-        margin-left: 20px;
-        margin-top: 150vh;
-    }
-
-    .h5{
-        margin-left: 20px;
-        margin-top: 175vh;
-    }
-
-    .Naxly{
-        margin-left: 20px;
-        margin-top: 190vh;
+    .right-col{
+        flex-basis: 100%;
+        margin-left: -20vh;
     }
 
     .Learn-btn{
@@ -856,13 +850,8 @@ footer p span{
         margin-top: 64vh;
     }
 
-    #icon4{
-        margin-left: 20px;
-    }
-
     #industries-we-serve{
-        margin-top: -17vh;
-        height: 260vh;
+        height: fit-content;
     }
 
     #serve{
@@ -882,13 +871,12 @@ footer p span{
 
     #column{
         flex-basis: 100%;
-        margin-top: 10px;
         width:90px;
-        height:200px;
+        margin-top: 10px;
     }
 
     .link{
-        margin-top: 65em;
+        margin-top: 70em;
     }
 
     #column-icon{
@@ -896,7 +884,7 @@ footer p span{
     }
 
     #partners{
-        margin-top: -10vh;
+        height: fit-content;
     }
 
     #partners h1{
@@ -929,7 +917,7 @@ footer p span{
     }
 
     #stuffs{
-        height: 100vh;
+        height: fit-content;
 
     }
 
@@ -946,8 +934,7 @@ footer p span{
     }
 
     #innovative{
-        margin-top: 125vh;
-        height: 110vh;
+        height: fit-content;
         background-size: 75em;
     }
 
@@ -966,7 +953,6 @@ footer p span{
     }
 
     footer{
-        margin-top: -50vh;
         align-content: left;
     }
 
