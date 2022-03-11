@@ -18,15 +18,18 @@ header {
   background-size: 1055px;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .menu-btn:hover{
   color: lightgray;
 }
 
 nav {
-  display: flex;
   justify-content: space-around;
   text-align: center;
-  flex-wrap: wrap;
   position: relative;
 }
 
@@ -161,10 +164,8 @@ button {
 
 .services-row {
   width: 100%;
-  display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .services-col {
@@ -200,9 +201,7 @@ button {
 }
 
 .learn-more-row {
-  display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .left {
@@ -213,7 +212,7 @@ button {
   flex-basis: 50%;
 }
 
-.rect {
+.new-features {
   background-color: white;
   width: 350px;
   height: 100px;
@@ -235,11 +234,11 @@ button {
   z-index: 1;
 }
 
-.rect h4 {
+.new-features h4 {
   margin: 28px 0px 0px 85px;
 }
 
-.rect p {
+.new-features p {
   margin: 10px 0px 0px 85px;
 }
 
@@ -259,10 +258,8 @@ button {
 }
 
 .right-row {
-  display: flex;
   justify-content: flex-start;
   align-content: center;
-  flex-wrap: wrap;
 }
 
 .right-col {
@@ -338,10 +335,8 @@ button {
 }
 
 .row {
-  display: flex;
   justify-content: space-evenly;
   align-content: center;
-  flex-wrap: wrap;
   position: absolute;
   padding-top: 130px;
   margin-left: 35px;
@@ -424,10 +419,8 @@ button {
 }
 
 .quote-row {
-  display: flex;
   justify-content: space-around;
   align-content: center;
-  flex-wrap: wrap;
   margin-top: -7vh;
 }
 
@@ -447,10 +440,8 @@ button {
 }
 
 .stuffs-row {
-  display: flex;
   justify-content: space-around;
   align-content: center;
-  flex-wrap: wrap;
 }
 
 .stuffs-row-column {
@@ -537,10 +528,8 @@ footer {
 }
 
 .contact-row {
-  display: flex;
   justify-content: space-around;
   align-content: left;
-  flex-wrap: wrap;
 }
 
 .contact-column1 {
@@ -604,9 +593,7 @@ footer {
 }
 
 .email-field {
-  display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   border: 1px solid black;
   width: 22em;
   height: 50px;
@@ -640,9 +627,7 @@ footer {
 }
 
 .social {
-  display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .social-icon {
@@ -869,11 +854,11 @@ footer p span {
     display: none;
   }
   .img1 {
-    margin-left: 15px;
+    margin-left: 9px;
     width: 420px;
     height: 420px;
   }
-  .rect {
+  .new-features {
     margin-left: -20em;
     margin-top: 64vh;
   }
