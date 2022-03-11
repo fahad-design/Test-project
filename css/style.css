@@ -18,6 +18,10 @@ header {
   background-size: 1055px;
 }
 
+.menu-btn:hover{
+  color: lightgray;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -61,7 +65,6 @@ nav {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 
 .menu-content a {
@@ -96,6 +99,10 @@ nav {
   font-weight: bold;
 }
 
+.menu a:hover{
+  color: black;
+}
+
 button {
   text-decoration: none;
   color: white;
@@ -128,6 +135,10 @@ button {
   margin-left: 80px;
   background-color: rgb(253, 106, 130);
   border: none;
+}
+
+.btn:hover{
+  color: lightgray
 }
 
 .services {
@@ -292,6 +303,10 @@ button {
   border-radius: 70px;
 }
 
+.Learn-btn:hover{
+  color: lightgray;
+}
+
 .industries-we-serve {
   width: 100%;
   height: 130vh;
@@ -363,6 +378,10 @@ button {
   color: white;
 }
 
+.link a:hover{
+  color: black;
+}
+
 .partners {
   width: 100%;
   height: 90vh;
@@ -396,7 +415,12 @@ button {
   margin-left: 42%;
   color: rgb(255, 110, 134);
   border: 1px solid rgb(255, 111, 135);
-  width: 200px
+  width: 200px;
+  z-index: 1;
+}
+
+.quote:hover{
+  color: lightgray;
 }
 
 .quote-row {
@@ -503,6 +527,10 @@ button {
   border-color: white;
 }
 
+.innovative-btn:hover{
+  color:lightgray;
+}
+
 footer {
   width: 100%;
   height: 80vh;
@@ -579,16 +607,24 @@ footer {
 
 .email-field input {
   border: none;
+  border-radius: 4px;
   flex-basis: 70%;
-  margin-left: 15px;
+  margin: 0px 0px 0px 15px;
   width: 20px;
-  z-index: -1
+  height: 47px;
+  z-index: 1;
+  background-color: transparent;
 }
 
 .email-btn {
   flex-basis: 20%;
   border: none;
-  margin-top: 3px;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+.email-btn:hover {
+  background-color: lightgray;
 }
 
 .email-btn img {
@@ -606,9 +642,20 @@ footer {
 }
 
 .social-icon img {
-  margin-top: 20px;
+  margin: -1px 0px 0px -4px;
   width: 30px;
   height: 30px;
+}
+
+.social-icon button{
+  width: 30px;
+  height: 30px;
+  border: transparent;
+  border-radius: 50%;
+}
+
+.social-icon button:hover{
+  background-color: lightblue;
 }
 
 footer p {
@@ -643,11 +690,11 @@ footer p span {
   .right-col {
     flex-basis: 50%;
   }
-  .right-col h5{
+  .right-col h5 {
     margin-top: -65px;
     margin-left: 40vh;
   }
-  .right-col p{
+  .right-col p {
     margin-bottom: 40px;
     margin-left: 40vh;
   }
@@ -686,7 +733,7 @@ footer p span {
   .circle1 {
     margin-top: -25vh;
   }
-  .stuffs-row-column img{
+  .stuffs-row-column img {
     margin-left: 55px;
   }
   .img-text h3 {
@@ -699,7 +746,6 @@ footer p span {
     font-size: 15px;
     text-align: center;
     padding-left: 15vh;
-    
   }
   .img-text img {
     display: none;
@@ -729,11 +775,11 @@ footer p span {
   .right-col {
     margin-top: 2px;
   }
-  .right-col h5{
+  .right-col h5 {
     margin-top: -65px;
     margin-left: 40vh;
   }
-  .right-col p{
+  .right-col p {
     margin-bottom: 40px;
     margin-left: 40vh;
   }
@@ -805,10 +851,10 @@ footer p span {
     flex-basis: 100%;
     margin-left: -20vh;
   }
-  .right-col h5{
+  .right-col h5 {
     margin-top: -65px;
   }
-  .right-col P{
+  .right-col P {
     margin-bottom: 40px;
   }
   .Learn-btn {
@@ -881,16 +927,16 @@ footer p span {
   .stuffs-row-column {
     flex-basis: 90%;
   }
-  .img-text h3{
+  .img-text h3 {
     display: none;
   }
-  .circle1{
+  .circle1 {
     display: none;
   }
-  .design{
+  .design {
     display: none;
   }
-  .stuffs-row-column img{
+  .stuffs-row-column img {
     margin-right: 50px;
   }
   .security {
