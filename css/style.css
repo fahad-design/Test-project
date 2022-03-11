@@ -573,6 +573,10 @@ footer {
   color: black;
 }
 
+.contact-column2 a:hover{
+  color: lightgray;
+}
+
 .contact-column3 {
   flex-basis: 15%;
   margin-top: 18vh;
@@ -582,6 +586,10 @@ footer {
 .contact-column3 a {
   text-decoration: none;
   color: black;
+}
+
+.contact-column3 a:hover{
+  color: lightgray;
 }
 
 .contact-column4 {
